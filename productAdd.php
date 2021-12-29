@@ -88,7 +88,7 @@ include('./components/header.php');
                     <div class="col-4">
                     <div class="form-group">
                             <label for="quantity">Quantity</label>
-                            <input type="text" name="quantity" class="form-control" id="quantity" required>
+                            <input type="number" name="quantity" class="form-control" id="quantity" required>
                         </div>
                         <!-- <label for="discount">Discount</label>
                         <div class="input-group">
@@ -105,13 +105,13 @@ include('./components/header.php');
                     <div class="col-4">
                         <div class="form-group">
                             <label for="unitWeight">Unit Weight</label>
-                            <input type="text" name="unitWeight" class="form-control" id="unitWeight" required>
+                            <input type="number" name="unitWeight" class="form-control" id="unitWeight" required>
                         </div>
                     </div>
                     <div class="col-4">
                         <div class="form-group">
                             <label for="dimension">Dimension</label>
-                            <input type="text" name="dimension" class="form-control" id="dimension" required>
+                            <input type="number" name="dimension" class="form-control" id="dimension" required>
                         </div>
                     </div>
                     <div class="col-4">
